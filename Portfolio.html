@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "MYcxzcRIzHbNqH_rg",
+      });
+   })();
+</script>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 box1 ani">
+            <section onclick="showsidebar()" class="button"><a href="#" id="menuicon"><svg xmlns="http://www.w3.org/2000/svg" height="24" fill="yellow" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></section>
+            <img id="img" class="col-12" src="edited.png">
+            <div id="hh">
+                
+                <h4 id="hello">.Hello World.</h4>
+                <h1>I am<br><span>ANAS MALIK</h1>
+            </div>
+            <div id="scnd">
+                <p id="js">Front-End<br><span>Developer</span></p>
+                <p>Based in INDIA.</p>
+            </div>
+
+            
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 box2 ani">
+            <nav>
+                <ul id="sidebar">
+                    <li onclick="hidesidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" fill="yellow" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li class="fst2"><a href="#about" class="links" onclick="hidesidebar()" >ABOUT</a></li>
+                    <li class="scnd2"><a href="#skills" class="links" onclick="hidesidebar()" >SKILLS</a></li>
+                    <li class="fst2"><a href="#projects" class="links" onclick="hidesidebar()" >PROJECT</a></li>
+                    <li class="scnd2"><a href="#contactus" class="links" onclick="hidesidebar()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <nav class="nnav">
+                <ul id="mainbar">
+                    <li><a href="#about" class="links fst" >ABOUT</a></li>
+                    <li><a href="#skills" class="links scnd" >SKILLS</a></li>
+                    <li><a href="#projects" class="links fst" >PROJECTS</a></li>
+                    <li><a href="#contactus" class="links scnd">CONTACT</a></li>
+                </ul>
+            </nav>
+            </div>
+    </div>
+    <div id="maincontent" class="col-xs-12">
+        <div class=" ani content col-12 col-md-8 col-lg-6">
+            <h1 id="about" class="anima">ABOUT</h1>
+            <br>
+            <p class="anima" id="abt">I am a Passionate Indian based Web Developer with advanced knowledge in HTML, CSS and JavaScript and 
+                currently i am hunting for a job. Scroll down to find more about me and for the record, this whole portfolio reflects
+                 my skills and ideas...
+            </p>
+            <br><br>
+            <p class="anima">Above that, I am an experienced Accountant with a degree in accounting and other certifications related to that.
+                may be this is not relevant for the type of job which I am looking for, but still, It's there...
+            </p>
+            <br><br>
+            <p class="anima">Even though I studied commerce field in my higher secondaries and bachelors, I always had the passion for tech and I always kept myself updated about the daily changing technologies.
+            </p>
+            <br><br><br><br>
+            <h1 class="anima" id="skills">SKILLS</h1>
+            <p id="skdes">(Click to see more)</p>
+            <br><br>
+            <div class="row skills anima">
+                <div id="cod" class="col-xs-12 col-md-4"><svg fill="white" xmlns="http://www.w3.org/2000/svg" height="70" viewBox="0 -960 960 960" width="70"><path d="m384-336 56-57-87-87 87-87-56-57-144 144 144 144Zm192 0 144-144-144-144-56 57 87 87-87 87 56 57ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                <p>Coding</p>
+                <p class="exp">I have developed my coding skills from Bridgeon Solutions with their internship program. I've mastered in web development using HTML, CSS and JavaScript.</p>
+                </div>
+                <div id="vid" class="col-xs-12 col-md-4 "><svg class="shadow" fill="white" xmlns="http://www.w3.org/2000/svg" height="70" viewBox="0 -960 960 960" width="70"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h480q33 0 56.5 23.5T720-720v180l160-160v440L720-420v180q0 33-23.5 56.5T640-160H160Zm0-80h480v-480H160v480Zm0 0v-480 480Z"/></svg>
+                <p>Videography</p>
+                <p class="exp">I've been present in Videography field since 2019,<br>I am mainly focused one post productions by using professional tools like Adobe Premiere Pro and After Effects.</p>
+                </div>
+                <div id="acc" class="col-xs-12 col-md-4"><svg fill="white" xmlns="http://www.w3.org/2000/svg" height="70" viewBox="0 -960 960 960" width="70"><path d="M160-280v80h640v-80H160Zm120-440v-80q0-33 23.5-56.5T360-880h240q33 0 56.5 23.5T680-800v80h120q33 0 56.5 23.5T880-640v440q0 33-23.5 56.5T800-120H160q-33 0-56.5-23.5T80-200v-440q0-33 23.5-56.5T160-720h120ZM160-400h640v-240H680v80h-80v-80H360v80h-80v-80H160v240Zm200-320h240v-80H360v80ZM160-200v-440 80-80 80-80 440Z"/></svg>
+                <p>Accounting</p>
+                <p class="exp">With a B.Com degree and 4 years as a Cost Accounting student,<br>I acquired the skill of accounting. and I polished my skills and applied it in real life as an Accountant executive in a private dealership.</p>
+                </div>
+            </div>
+            <br><br><br><br><br>
+            
+                <h1 class="anima" id="projects">PROJECTS</h1>
+                <br><br>
+                <div class="row cards anima">
+                    <div class="card col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                        <img id="paytm" src="paytm.png">
+                        <a href="paytm.png" target="_blank" class="overlay"><p>Paytm</p></a>
+                    </div>
+                    <div class="card col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                        <img id="facebook" src="facebook.png">
+                        <a href="facebook.png" target="_blank" class="overlay">Facebook</a>
+                    </div>
+                    <div class="card col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                        <img id="porfo" src="w3.png">
+                        <a href="w3.png" target="_blank" class="overlay" style="color: white;"><p>W3 School</p></a>
+                    </div>
+                    
+                </div>
+                <br><br><br><br><br>
+                <h1 class="anima" id="contactus">Let's Chat</h1>
+                <div id="contactcontainer">
+                    <form class="anima">
+                        <h3>Name</h3>
+                        <input type="text" placeholder="Enter Your Name" class="fld" id="name">
+                        <br><br>
+                        <h3>E-Mail</h3>
+                        <input type="email" placeholder="Enter Your Email" class="fld" id="email" required>
+                        <br><br>
+                        <h3>Message</h3>
+                        <textarea id="message" rows="3" cols="38" placeholder="Enter the Message"></textarea>
+                        <button class="buttn" onclick="sendMail()">SUBMIT</button>
+                    </form>
+                </div>
+                <div class="footer">
+                    <h5>Find me...</h5>
+                    <div id="icns">
+                        <div class="icnsdv" title="Mail me"><a href="mailto:anasmalikp@gmail.com" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="ics" fill="white" height="24" viewBox="0 -960 960 960" width="24"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg></a></div>
+                        <div class="icnsdv" title="Find me on X"><a href="https://twitter.com/anasmal63404222" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" fill="white" class="ics" viewBox="0 0 24 24" width="24px" height="24px"><path d="M 2.3671875 3 L 9.4628906 13.140625 L 2.7402344 21 L 5.3808594 21 L 10.644531 14.830078 L 14.960938 21 L 21.871094 21 L 14.449219 10.375 L 20.740234 3 L 18.140625 3 L 13.271484 8.6875 L 9.2988281 3 L 2.3671875 3 z M 6.2070312 5 L 8.2558594 5 L 18.033203 19 L 16.001953 19 L 6.2070312 5 z"/></svg></a></div>
+                        <div class="icnsdv" title="Find me on Linkedin"><a href="https://www.linkedin.com/in/anas-malik-0341652a1/" target="_blank"><?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" class="ics" fill="white" viewBox="0 0 24 24" width="24px" height="24px">    <path d="M19,3H5C3.895,3,3,3.895,3,5v14c0,1.105,0.895,2,2,2h14c1.105,0,2-0.895,2-2V5C21,3.895,20.105,3,19,3z M9,17H6.477v-7H9 V17z M7.694,8.717c-0.771,0-1.286-0.514-1.286-1.2s0.514-1.2,1.371-1.2c0.771,0,1.286,0.514,1.286,1.2S8.551,8.717,7.694,8.717z M18,17h-2.442v-3.826c0-1.058-0.651-1.302-0.895-1.302s-1.058,0.163-1.058,1.302c0,0.163,0,3.826,0,3.826h-2.523v-7h2.523v0.977 C13.93,10.407,14.581,10,15.802,10C17.023,10,18,10.977,18,13.174V17z"/></svg></a></div>
+                    </div>
+                    </div>
+
+            
+        </div>  
+
+    <script src="portfolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
