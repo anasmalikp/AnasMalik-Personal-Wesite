@@ -9,15 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
-<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "MYcxzcRIzHbNqH_rg",
-      });
-   })();
 </script>
 </head>
 <body>
@@ -112,16 +103,17 @@
                 <br><br><br><br><br>
                 <h1 class="anima" id="contactus">Let's Chat</h1>
                 <div id="contactcontainer">
-                    <form class="anima">
+                    <form class="anima" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="774b4890-bd8e-4921-9b02-1f353616b87e">
                         <h3>Name</h3>
-                        <input type="text" placeholder="Enter Your Name" class="fld" id="name">
+                        <input type="text" name="name" placeholder="Enter Your Name" class="fld" id="name" required>
                         <br><br>
                         <h3>E-Mail</h3>
-                        <input type="email" placeholder="Enter Your Email" class="fld" id="email" required>
+                        <input type="email" name="email" placeholder="Enter Your Email" class="fld" id="email" required>
                         <br><br>
                         <h3>Message</h3>
-                        <textarea id="message" rows="3" cols="38" placeholder="Enter the Message"></textarea>
-                        <button class="buttn" onclick="sendMail()">SUBMIT</button>
+                        <textarea id="message" name="message" rows="3" cols="38" placeholder="Enter the Message" required></textarea>
+                        <button type="submit" class="buttn">SUBMIT</button>
                     </form>
                 </div>
                 <div class="footer">
